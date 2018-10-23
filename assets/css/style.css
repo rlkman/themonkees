@@ -1,19 +1,21 @@
-nav{
-    color:white;
-    background-color: black;
-}
-
-ul{
-    text-align: center;
-}
-
 h1 {
     text-align: center;
+}
+
+.wrapper ul {
     list-style: none;
+    background-color: black;
+    color: white;
+}
+
+li {
+    display: inline-block;
+    width: 22%;
+    text-align: center;
 }
 
 .landingimage {
-    height: 100vh;
+    height: 81vh;
 
     background: url('../images/monkees.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
