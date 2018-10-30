@@ -1,11 +1,45 @@
 h1 {
     text-align: center;
+    font-weight: 700;
+    line-height: 1.1;
+    color: red;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    font-size: 56px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.landing-banner{
+    font-size:100px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+
+.menuitem a {
+    padding-top: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 0px;
 }
 
 .wrapper ul {
     list-style: none;
     background-color: black;
     color: white;
+    height: 40px;
 }
 
 li {
@@ -15,7 +49,7 @@ li {
 }
 
 .landingimage {
-    height: 81vh;
+    height: 80vh;
 
     background: url('../images/monkees.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -26,6 +60,72 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
+}
+
+.embed-responsive-16by9 {
+    /* padding-bottom: 100%; */
+    height: 350px;
+    padding: 0%;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+    line-height: 1;
+    width: 100%;
+    height: 586px;
+}
+
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+
+footer{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: gray;
+    background-color: #000;
+}
+
+#footer-details a{
+        color: #F44336;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -46px;
+    list-style: none;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bandmembers{
+    color: #000;
+    background-color: #fff;
+}
+
+@media (min-width: 992px)
+{.col-md-6 {
+    width: 50%;
+}
+}
+
+@media (min-width: 768px){
+.list-inline>li {
+    padding-top: 10px;
+}
+}
+
+@media (min-width: 992px){
+.carousel-inner {
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+}
 }
