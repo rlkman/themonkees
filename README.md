@@ -137,3 +137,5 @@ Deploy the final version of your code to a hosting platform such as GitHub Pages
 PLAGIARISM
 It is each student’s responsibility to ensure that when they include (directly or indirectly) the work of others that this contribution is fully and adequately acknowledged and documented.
 
+
+https://stackoverflow.com/questions/13402336/play-sound-file-in-a-web-page-in-the-background

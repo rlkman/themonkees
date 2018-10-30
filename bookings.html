@@ -18,16 +18,16 @@
         <nav class="wrapper">
             <div class="row">
                 <ul id="nav" class="list-inline clearfix">
-                    <li class="col-xs-6 col-sm-3 ui-menu-color-home menuitem">
+                    <li class="col-xs-6 col-sm-3 menuitem">
                         <a href="theband.html"><i class="fa fa-music" aria-hidden="true"></i><span>The Band</span></a>
                     </li>
-                    <li class="col-xs-6 col-sm-3 ui-menu-color-resume menuitem">
+                    <li class="col-xs-6 col-sm-3 menuitem">
                         <a href="catalogue.html"><i class="fa fa-download" aria-hidden="true"></i><span>Music Catalogue</span></a>
                     </li>
-                    <li class="col-xs-6 col-sm-3 ui-menu-color-contact menuitem">
+                    <li class="col-xs-6 col-sm-3 bookings-color menuitem">
                         <a href="bookings.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i><span>Bookings</span></a>
                     </li>
-                    <li class="col-xs-6 col-sm-3 ui-menu-color-download-cv menuitem">
+                    <li class="col-xs-6 col-sm-3 menuitem">
                         <a href="contact.html"><i class="fa fa-commenting-o" aria-hidden="true"></i><span>Contact</span></a>
                     </li>
                 </ul>
@@ -38,38 +38,60 @@
         </a>
     </header>
     <section class="container-fluid">
-        <div class="col-sm-6 col-md-4"></div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4" id="videoposition">
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="assets/video/TheMonkees.mp4"></iframe>
             </div>
         </div>
-        <div class="col-sm-6 col-md-4"></div>
-        <div>
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <input type="file" id="exampleInputFile">
-                    <p class="help-block">Example block-level help text here.</p>
-                </div>
-                <div class="checkbox">
-                    <label>
-                    <input type="checkbox"> Check me out
-                </label>
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form>
+        <div class="row" id="formposition">
+            <div class="col-sm-6 col-md-4">
+                <h5>Here's what we have planned for you</h5>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>DATE</td>
+                            <td>VENUE</td>
+                            <td>TIME</td>
+                        </tr>
+                        <tr>
+                            <td>12.11/2018</td>
+                            <td>City Hall, Seattle, WA</td>
+                            <td>14:00</td>
+                        </tr>
+                        <tr>
+                            <td>224/11/2018</td>
+                            <td>Belview Hall, NYC, NY</td>
+                            <td>20:00</td>
+                        </tr>
+                        <tr>
+                            <td>24/12/2018</td>
+                            <td>Colchester, Englang, UK</td>
+                            <td>19:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <form>
+                    <div class="form-group">
+                        <h5>Interested in booking us for a show?</h5>
+                        <div class="datesinput" style="display: block;">
+                            <h5>Select dates:</h5>
+                            <lable>Date of function</lable>
+                            <input type="date" id="functiondate" name="dateoffunction" value="" required/>
+                        </div>
+                        <label for="exampleInputEmail1">Enter you email address here</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" value="" required/>
+
+                        <label for="ocassion-details">Enter your occasion detatils here</label>
+                        <input type="text" class="form-control" id="ocassion-details" placeholder="State/Country/Wedding/Barmitsvah" value="" required/>
+                    </div>
+                    <button type="submit" class="mysubmit btn btn-danger">Submit</button>
+                </form>
+            </div>
+        </div>
         </div>
     </section>
-    <div class ="footer-line"></div>
     <footer>
         <div class="container-fluid">
             <div id="footer-details" class="row">
@@ -77,6 +99,7 @@
                     <h5 class="uppercase general-sub">Book Us</h5>
                     <p class="inline-block">
                         For weddings and events please contact us.
+                        <a href="contact.html"><i class="fa fa-commenting-o" aria-hidden="true"></i></a>
                     </p>
                 </div>
                 <div class="col-sm-4">

@@ -12,11 +12,11 @@ h1 {
     margin-bottom: 5px;
 }
 
-.landing-banner{
-    font-size:100px;
+.landing-banner {
+    font-size: 100px;
 }
 
-h5{
+h5 {
     font-size: 15px;
 }
 
@@ -42,6 +42,11 @@ h5{
     height: 40px;
 }
 
+.contact-color a i, .theband-color a i, .catalogue-color a i, .bookings-color a i{
+    padding-right: 5px;
+    color: red;
+} 
+
 li {
     display: inline-block;
     width: 22%;
@@ -64,7 +69,7 @@ li {
 }
 
 .embed-responsive-16by9 {
-    /* padding-bottom: 100%; */
+    margin-bottom: 10px;
     height: 350px;
     padding: 0%;
 }
@@ -82,16 +87,16 @@ li {
     background-color: #000;
 }
 
-footer{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: gray;
     background-color: #000;
 }
 
-#footer-details a{
-        color: #F44336;
+#footer-details a {
+    color: #F44336;
 }
 
 .list-inline {
@@ -105,27 +110,59 @@ footer{
     text-align: center;
 }
 
-.bandmembers{
+.bandmembers {
     color: #000;
     background-color: #fff;
 }
 
-@media (min-width: 992px)
-{.col-md-6 {
-    width: 50%;
-}
-}
-
-@media (min-width: 768px){
-.list-inline>li {
-    padding-top: 10px;
-}
+.mysubmit {
+    margin-bottom: 15px;
+    margin-left: 45%;
 }
 
-@media (min-width: 992px){
-.carousel-inner {
-    height: 100%;
-    width: 50%;
-    margin-left: 25%;
+#contact-foot{
+    margin-top: -20px;
 }
+
+@media (min-width: 992px) {
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .list-inline>li {
+        padding-top: 10px;
+    }
+    #videoposition {
+        width: 60.333333%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #formposition {
+        display: block;
+        width: 100%;
+        margin-left: 1%;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-inner {
+        height: 100%;
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media (min-width: 992px) {
+    #videoposition {
+        width: 67.333333%;
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+    #formposition {
+        display: block;
+        width: 100%;
+        margin-left:20%;
+    }
 }
