@@ -13,7 +13,7 @@ h1 {
 }
 
 .landing-banner {
-    font-size: 100px;
+    font-size: 80px;
 }
 
 h5 {
@@ -39,18 +39,30 @@ h5 {
     list-style: none;
     background-color: black;
     color: white;
-    height: 40px;
+    height: 50px;
 }
 
-.contact-color a i, .theband-color a i, .catalogue-color a i, .bookings-color a i{
+.border {
+    width: 100%;
+    border: double;
+}
+
+.contact-color a i,
+.theband-color a i,
+.catalogue-color a i,
+.bookings-color a i {
     padding-right: 5px;
     color: red;
-} 
+}
 
 li {
     display: inline-block;
     width: 22%;
     text-align: center;
+}
+
+.booking-subs {
+    color: red;
 }
 
 .landingimage {
@@ -115,19 +127,18 @@ footer {
     background-color: #fff;
 }
 
+.media-left {
+    display: none;
+}
+
+
 .mysubmit {
     margin-bottom: 15px;
     margin-left: 45%;
 }
 
-#contact-foot{
+#contact-foot {
     margin-top: -20px;
-}
-
-@media (min-width: 992px) {
-    .col-md-6 {
-        width: 50%;
-    }
 }
 
 @media (min-width: 768px) {
@@ -144,6 +155,13 @@ footer {
         width: 100%;
         margin-left: 1%;
     }
+    .landing-banner {
+        font-size: 100px;
+    }
+    .media-left {
+        display: table-cell;
+        vertical-align: top;
+    }
 }
 
 @media (min-width: 992px) {
@@ -151,6 +169,9 @@ footer {
         height: 100%;
         width: 50%;
         margin-left: 25%;
+    }
+    .col-md-6 {
+        width: 50%;
     }
 }
 
@@ -163,6 +184,22 @@ footer {
     #formposition {
         display: block;
         width: 100%;
-        margin-left:20%;
+        margin-left: 20%;
+    }
+    .landing-banner {
+        font-size: 100px;
+
+    }
+    .border {
+        width: 40%;
+        border-color: #000;
+        border-style: double;
+        border-radius: 3%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .media-left {
+        display: table-cell;
+        vertical-align: top;
     }
 }
